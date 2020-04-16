@@ -17,8 +17,68 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-    pass
+    turn_left()
+    beeper_or_move()
+    double_turn()
+    beeper_or_move()
+    blocked()
 
+    quad_jump()
+    turn_left()
+    beeper_or_move()
+    double_turn()
+    beeper_or_move()
+    blocked()
+
+    quad_jump()
+    turn_left()
+    beeper_or_move()
+    double_turn()
+    beeper_or_move()
+    blocked()
+
+    quad_jump()
+    turn_left()
+    beeper_or_move()
+    double_turn()
+    beeper_or_move()
+    blocked()
+
+def place_beeper_move():
+    while no_beepers_present():
+        put_beeper()
+        move()
+
+def move_until_blocked():
+    while front_is_clear():
+        move()
+
+def beeper_or_move():
+    while front_is_clear():
+        if no_beepers_present():
+            put_beeper()
+            move()
+        else:
+            move()
+
+def blocked():
+    while front_is_blocked():
+        if no_beepers_present():
+            put_beeper()
+        else:
+            turn_left()
+
+def triple_turn():
+    for i in range(3):
+        turn_left()
+
+def double_turn():
+    for i in range(2):
+        turn_left()
+
+def quad_jump():
+    for i in range(4):
+        move()
 
 # There is no need to edit code beyond this point
 
