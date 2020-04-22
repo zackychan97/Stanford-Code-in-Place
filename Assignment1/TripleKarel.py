@@ -18,80 +18,63 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-    blocked_left()
-    turn_move()
-    blocked_left()
-    turn_move()
-    blocked_left()
-    triple_turn()
-    blocked_left()
-    turn_move()
-    blocked_left()
-    turn_move()
-    blocked_left()
-    triple_turn()
-    blocked_left()
-    turn_move()
-    blocked_left()
-    turn_move()
-    blocked_left()
-    turn_move()
-    blocked_left()
-    triple_turn()
-    blocked_left()
-    triple_turn()
+    double_block_turn()
+    block_tripleTurn()
+    double_block_turn()
+    block_tripleTurn()
+    triple_block_turn()
+    doubleBlock_tripleTurn()
     blocked_left()
 
 
-# def put_and_move():
-#     if left_is_blocked():
-#         put_beeper()
-#         move()
-#     else:
-#         if right_is_blocked():
-#             put_beeper()
-#             move()
-#
-# def direction_change_from_east():
-#     if facing_east():
-#         turn_left()
-#         move()
-#
-# def direction_change_from_south():
-#     if facing_south():
-#         turn_left()
-#         move()
+def block_tripleTurn():
+        blocked_left()
+        triple_turn()
+
+def doubleBlock_tripleTurn():
+        for i in range(2):
+                blocked_left()
+                triple_turn()
+
+
+def double_block_turn():
+        for i in range(2):
+                blocked_left()
+                turn_move()
+
+
+def triple_block_turn():
+        for i in range(3):
+                blocked_left()
+                turn_move()
+
 
 def blocked_left():
     while left_is_blocked():
         put_beeper()
         move()
 
-# def blocked_front():
-#     while front_is_blocked():
-#         turn_left()
-#         move()
 
 def blocked_right():
     while right_is_blocked():
         put_beeper()
         move()
 
+
 def turn_move():
     turn_left()
     move()
+
 
 def triple_turn():
     turn_left()
     turn_left()
     turn_left()
 
+
 def move_while_clear():
     while front_is_clear():
         move()
-
-
-
 
 
 # There is no need to edit code beyond this point
