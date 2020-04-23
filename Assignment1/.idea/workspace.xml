@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="164ec03e-79f6-4ab8-be9b-867bab4fb0f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TripleKarel.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripleKarel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,5 +44,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="597" y="161" key="SettingsEditor/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1586295292705" />
+    <state x="1513" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1587599284576">
+      <screen x="0" y="23" width="2560" height="1317" />
+    </state>
+    <state x="1513" y="404" key="com.intellij.ide.util.TipDialog/0.23.2560.1317@0.23.2560.1317" timestamp="1587599284576" />
   </component>
 </project>

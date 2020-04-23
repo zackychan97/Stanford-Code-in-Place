@@ -18,13 +18,30 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-    double_block_turn()
-    block_tripleTurn()
-    double_block_turn()
-    block_tripleTurn()
-    triple_block_turn()
-    doubleBlock_tripleTurn()
     blocked_left()
+    turn_move()
+    blocked_left()
+    turn_move()
+    blocked_left()
+    triple_turn()
+    blocked_left()
+    turn_move()
+    blocked_left()
+    turn_move()
+    blocked_left()
+    triple_turn()
+    blocked_left()
+    turn_move()
+    blocked_left()
+    turn_move()
+    blocked_left()
+
+    # double_block_turn()
+    # block_tripleTurn()
+    # double_block_turn()
+    # triple_turn()
+    # double_block_turn()
+    # blocked_left()
 
 
 def block_tripleTurn():
