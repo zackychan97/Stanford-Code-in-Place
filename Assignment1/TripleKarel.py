@@ -13,29 +13,30 @@ Triple sample worlds supplied in the starter folder.
 
 def main():
     """
-    1. First, Karel will put beepers and then move while her
-    left is blocked, followed by a turn left and move forward.
-    That same sequence just described will then repeat once more.
-
-    2. Next, Karel will put beepers and then move while her
-    left is blocked, after which she will turn left 3 times.
-
-    3. Following this, Karel will repeat the first step.
-
-    4. Next, Karel will repeat the second step.
-
-    5. Following this, once again Karel will repeat Steps 1 and 3.
-
-    6. Lastly, Karel will place a beeper and then move until she
-    no longer has her left side blocked.
+    Paints the exterior of the TripleKarel.py worlds
+    (and relating worlds)
     """
+    paint_exterior()
+
+"""
+1. First, Karel will put beepers and then move while her
+left is blocked, followed by a turn left and move forward.
+That same sequence just described will then repeat once more.
+2. Next, Karel will put beepers and then move while her
+left is blocked, after which she will turn left 3 times.
+3. Following this, Karel will repeat the first step.
+4. Next, Karel will repeat the second step.
+5. Following this, once again Karel will repeat Steps 1 and 3.
+6. Lastly, Karel will place a beeper and then move until she
+no longer has her left side blocked.
+"""
+def paint_exterior():
     double_block_turn()
     block_tripleTurn()
     double_block_turn()
     block_tripleTurn()
     double_block_turn()
     blocked_left()
-
 """
 Will place a beeper and move WHILE left is blocked, 
 and then when it is not blocked will triple left turn.
