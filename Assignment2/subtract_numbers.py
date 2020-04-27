@@ -17,7 +17,7 @@ def main():
     num1 = float(input("Enter first number. "))
     num2 = float(input("Enter your second number. "))
     total = num1 - num2
-    print("The total is " + str(total) + ".")
+    print("The result is " + str(total) + ".")
 
 
 # This provided line is required at the end of a Python file

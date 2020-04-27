@@ -19,8 +19,11 @@ def main():
     it with a better, more descriptive one.
     """
     print("This program generates and prints a random number 10 times.")
+    print_ten_randoms()
 
-print(random.randint(MIN_RANDOM, MAX_RANDOM))
+def print_ten_randoms():
+    for i in range(NUM_RANDOM):
+        print(random.randint(MIN_RANDOM, MAX_RANDOM))
 
     
     
