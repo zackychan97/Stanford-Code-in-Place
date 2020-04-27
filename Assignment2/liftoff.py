@@ -4,6 +4,7 @@ File: liftoff.py
 This program writes out the calls for a spaceship that is about to launch.
 It counts down the numbers from 10 to 1 and then writes “Liftoff!”
 """
+countdown_number = 10
 
 
 def main():
@@ -13,8 +14,12 @@ def main():
     your own code. You should also delete this comment and replace
     it with a better, more descriptive one.
     """
-    pass
+    launch_rocket()
 
+def launch_rocket():
+    for i in range(10):
+        print(countdown_number - i)
+    print("Liftoff!")
 
 # This provided line is required at the end of a Python file
 # to call the main() function.
