@@ -34,6 +34,20 @@ def alternative_solution():
         else:
             quit()
 
+def alternative_solution2():
+    total = 0
+    while True:
+        roll = str(input("Type: 'Roll' to roll the dice, type anything else to quit. "))
+        if roll == "Roll":
+            dice1 = random.randint(1, 6)
+            print("Dice 1: ", dice1)
+            dice2 = random.randint(1, 6)
+            print("Dice 2: ", dice2)
+            total = total + dice1 + dice2
+            print("Total: ", total)
+        else:
+            break
+
 
 
 # This provided line is required at the end of a Python file
