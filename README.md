@@ -1,3 +1,7 @@
+*READERS*
+Link to Karel Reader: https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html
+Link to Python Reader: https://codeinplace2020.github.io/pythonreader/en/intro/
+
 *Section Handout Guides:*
 
 Link to Section 1 Handout Guide: https://codeinplace2020.github.io/faqs/section1.pdf
