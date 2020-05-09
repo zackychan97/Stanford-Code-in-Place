@@ -1,3 +1,5 @@
+# LINK TO HANDOUT: https://codeinplace2020.github.io/faqs/section4.pdf
+
 from simpleimage import SimpleImage
 
 def main():
