@@ -15,13 +15,19 @@ def main():
 
     # Show the image before the transform
     image.show()
-
     # Apply the filter
     # TODO: your code here
-
+    apply_filter(image)
     # Show the image after the transform
     image.show()
     
+
+def apply_filter(img):
+    for pixel in img:
+        pixel.red = (pixel.red * 1.5)
+        pixel.green = (pixel.green * 0.7)
+        pixel.blue = (pixel.blue * 1.5)
+
 
 def get_file():
     # Read image file path from user, or use the default file
