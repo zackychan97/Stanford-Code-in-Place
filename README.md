@@ -11,6 +11,8 @@ Link to Graphics Reference: https://compedu.stanford.edu/codeinplace/v1/#/handou
 
 
 
+
+
 **Section Handout Guides:**
 
 Link to Section 1 Handout Guide: https://codeinplace2020.github.io/faqs/section1.pdf
@@ -23,7 +25,9 @@ Link to Section 4 Handout Guide: https://codeinplace2020.github.io/faqs/section4
 
 
 
-</br>
+
+
+
 **Link to Assignment Handouts:**
 
 Link to Assignment 1: https://codeinplace2020.github.io/faqs/Assignment1.pdf
@@ -31,6 +35,8 @@ Link to Assignment 1: https://codeinplace2020.github.io/faqs/Assignment1.pdf
 Link to Assignment 2: https://codeinplace2020.github.io/faqs/Assignment2.pdf
 
 Link to Assignment 3: https://codeinplace2020.github.io/faqs/Assignment3.pdf
+
+
 
 
 
