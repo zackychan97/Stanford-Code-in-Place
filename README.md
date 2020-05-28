@@ -23,7 +23,7 @@ Link to Section 4 Handout Guide: https://codeinplace2020.github.io/faqs/section4
 
 
 
-
+</br>
 **Link to Assignment Handouts:**
 
 Link to Assignment 1: https://codeinplace2020.github.io/faqs/Assignment1.pdf
