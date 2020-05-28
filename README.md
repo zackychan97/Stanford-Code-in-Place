@@ -26,7 +26,7 @@ Link to Assignment 2: https://codeinplace2020.github.io/faqs/Assignment2.pdf
 
 Link to Assignment 3: https://codeinplace2020.github.io/faqs/Assignment3.pdf
 
-* Assignment Starter Code *
+_Assignment Starter Code_
 
 Zip file Assignment 1 Starter Code: https://compedu.stanford.edu/codeinplace/starterCode/Assignment1.zip
 
